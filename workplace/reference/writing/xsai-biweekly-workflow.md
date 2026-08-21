@@ -62,6 +62,12 @@ Biweekly 108 的 [汇总 PR #253](https://github.com/OpenXiangShan/XiangShan-doc
 2. 仅在中英文稿确认后，将 `### XSAI` 段落写入对应的 `XiangShan-doc/docs/blog/posts/biweekly-{num}.md` 与 `biweekly-{num}-en.md`。
 3. 检查 Git diff 仅包含本组供稿的必要修改，再向汇总分支提交自己的 commit，交由双周报总编辑汇总。
 
+## 8. 归档与收尾
+
+1. 总编辑合并汇总 PR 后，在 `workplace/biweekly-{num}/` 记录最终 PR URL、XSAI 提交哈希和任何发布阶段的例外决定。
+2. 将本期审计、草稿和最终记录提交到本工作仓库；不提交 `XiangShan-doc/`。
+3. 将本地 `XiangShan-doc` 切回并同步 `master`，为下一期准备。
+
 ## 固化方式
 
 当前以本 Markdown 文档为准。它适合存放会变化的人员范围、仓库范围、审核口径和例外决定，也便于总编辑与组员共同审阅。连续两期按此流程稳定执行后，可将“查询已合入 PR、生成审计表、检查双语链接和结构”等机械步骤封装为 skills；skills 应引用本文件，而不替代负责人的技术判断和最终确认。

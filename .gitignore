@@ -1,0 +1,7 @@
+# The upstream publication repository is maintained separately.
+XiangShan-doc/
+
+# Local editor and operating-system files.
+.DS_Store
+*.swp
+*.swo

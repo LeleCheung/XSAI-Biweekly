@@ -4,6 +4,8 @@
 
 ## 目录
 
+- [`biweekly-110/`](biweekly-110/)
+  - [`audit/`](biweekly-110/audit/): 110 期 PR 候选与审计记录。
 - [`biweekly-109/`](biweekly-109/)
   - [`drafts/`](biweekly-109/drafts/): 109 期中英文 v1 草稿。
   - [`audit/`](biweekly-109/audit/): PR 候选、成员贡献确认和复查记录。
@@ -13,6 +15,6 @@
 
 ## 当前入口
 
-- [109 中文 v1](biweekly-109/drafts/biweekly-109-xsai-zh-v1.md)
-- [109 English v1](biweekly-109/drafts/biweekly-109-xsai-en-v1.md)
+- [110 PR 候选清单](biweekly-110/audit/biweekly-110-pr-inventory-2026-08-31.md)
+- [109 发布归档](biweekly-109/published.md)
 - [XSAI 双周报供稿工作流](reference/writing/xsai-biweekly-workflow.md)

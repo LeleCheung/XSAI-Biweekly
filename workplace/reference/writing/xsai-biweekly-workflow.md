@@ -10,12 +10,15 @@
 
 ## 1. 收集候选 PR
 
-1. 首先查询 XSAI、CUTE 和 difftest；只有改动与本组工作直接相关时，再查询 HBL2、XSAICache、xsai-env 或 NEMU。
+1. 首先查询 XSAI、CUTE、difftest 和 XSAICache；只有改动与本组工作直接相关时，再查询 HBL2、xsai-env 或 NEMU。
 2. 只保留已确认组员提交、且与 XSAI CPU、CUTE、缓存或验证基础设施直接相关的 PR。
 3. 组员 GitHub 账号应维护在独立的确认名单中。当前已确认的映射为：
    - `Wonicon`：2017-王诲喆
    - `yu-yake2002`：2024-孙际儒
    - `ecall73`：2027-李智恒
+   - `Gs-ygc`
+   - `Ivyfeather`
+   - `zykucas`
 4. 未合入、被拒绝、非组员或关联性不清楚的 PR 记录在审计清单中，不写入正式正文。
 
 ## 2. 核对事实与个人周报

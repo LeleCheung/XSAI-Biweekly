@@ -4,7 +4,7 @@
 
 本名单由 Biweekly 100-108 的 XSAI 专节中明确链接的 40 个 PR 反查得到。账号是 GitHub PR 的 `author.login`，不是合入人、reviewer 或实际贡献者的完整名单。它只能表示“该账号的 PR 曾被 XSAI 双周报报道”，不能证明其正式组织归属或当前仍是 XSAI 组成员。
 
-2026-08-15 已由 XSAI 负责人确认的组员账号为：`Wonicon`、`ecall73`、`yu-yake2002`。这三个账号可作为后续 PR 初筛的人工确认 allowlist；表中其他账号仍仅保留“历史已报道贡献者”的含义。
+截至 2026-08-31，XSAI 负责人已确认的组员账号为：`Wonicon`、`ecall73`、`yu-yake2002`、`Gs-ygc`、`Ivyfeather`、`zykucas`。这些账号可作为后续 PR 初筛的人工确认 allowlist；表中其他账号仍仅保留“历史已报道贡献者”的含义。`Ivyfeather` 与 `zykucas` 未出现在本表的历史 PR 反查结果中，但同样属于当前确认名单。
 
 | GitHub 用户名 | 已报道 PR 数 | 历史周报中的 PR |
 | --- | ---: | --- |

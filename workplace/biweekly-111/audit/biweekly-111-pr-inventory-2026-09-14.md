@@ -19,7 +19,7 @@
 | Bug 修复 | 同步昆明湖 V2 的计数器溢出和 XSPDB 适配修复 | [XSAI #129](https://github.com/OpenXiangShan/XSAI/pull/129) | ecall73 | 09-14 10:48 | 保持 LCOFIP counter-overflow 请求，避免 CSR 读改写期间中断丢失；同时补入 XSPDB picker 的 `-S` include-path 修复。 |
 | Bug 修复 | 修复预取 RequestBuffer 活锁 | [XSAI #126](https://github.com/OpenXiangShan/XSAI/pull/126)、[XSAICache #8](https://github.com/OpenXiangShan/XSAICache/pull/8) | yu-yake2002；zykucas | 09-09 00:26；09-08 18:31 | 取消已进入 `chosenQ` 的预取请求时只检查缓存的就绪状态变化，避免瞬时节流信号反复取消请求并触发 `ReqBuf Leak`。 |
 | RTL 新特性 | 为 CUTE 访存请求传递矩阵预取描述信息 | [CUTE #39](https://github.com/OpenXiangShan/CUTE/pull/39) | zykucas | 09-10 16:25 | 为 A/B/C loader 传递 task/stream 预取标签，区分矩阵 demand 与 prefetch 请求，保留 C-store 的 debug trace 标签，并补充 trace 验证；PR 依赖的 XSAICache #7 仍未合入，不单独列为成果。 |
-| 调试工具 | 优化 NEMU 浮点 MMACC 参考模型并完善 BF16 路径 | [NEMU #1189](https://github.com/OpenXiangShan/NEMU/pull/1189)、[NEMU #1197](https://github.com/OpenXiangShan/NEMU/pull/1197)、[NEMU #1200](https://github.com/OpenXiangShan/NEMU/pull/1200) | ecall73；yu-yake2002 | 09-01 09:36；09-06 11:51；09-07 22:24 | 修复 BF16×BF16→FP32 MMACC，增加 FP16/BF16/FP32 浮点 MMACC 自动向量化路径，并校验操作数编码、tile 边界、类型组合和舍入语义；标量/SoftFloat 路径保留为回退。 |
+| 调试工具 | 优化 NEMU 浮点 MMACC，并完善指令语义检查 | [NEMU #1189](https://github.com/OpenXiangShan/NEMU/pull/1189)、[NEMU #1197](https://github.com/OpenXiangShan/NEMU/pull/1197)、[NEMU #1200](https://github.com/OpenXiangShan/NEMU/pull/1200) | ecall73；yu-yake2002 | 09-01 09:36；09-06 11:51；09-07 22:24 | 修复 BF16×BF16→FP32 MMACC，增加 FP16/BF16/FP32 浮点 MMACC 自动向量化路径，并校验操作数编码、tile 边界、类型组合和舍入语义；标量/SoftFloat 路径保留为回退。 |
 
 ## 跨仓库关联
 

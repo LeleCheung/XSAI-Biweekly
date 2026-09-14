@@ -10,4 +10,4 @@
 - 调试工具
   - 完善 AME DiffTest 的 `mrelease` 退休与旧 `mstore` 顺序检查（[XSAI #121](https://github.com/OpenXiangShan/XSAI/pull/121)、[difftest #953](https://github.com/OpenXiangShan/difftest/pull/953)、[XSAI #128](https://github.com/OpenXiangShan/XSAI/pull/128)、[difftest #958](https://github.com/OpenXiangShan/difftest/pull/958)）
   - 为 AME 错误路径记录正确的指令 PC（[XSAI #121](https://github.com/OpenXiangShan/XSAI/pull/121)、[difftest #955](https://github.com/OpenXiangShan/difftest/pull/955)）
-  - 优化 NEMU 浮点 MMACC 参考模型并完善 BF16 路径（[NEMU #1189](https://github.com/OpenXiangShan/NEMU/pull/1189)、[NEMU #1197](https://github.com/OpenXiangShan/NEMU/pull/1197)、[NEMU #1200](https://github.com/OpenXiangShan/NEMU/pull/1200)）
+  - 优化 NEMU 浮点 MMACC，并完善指令语义检查（[NEMU #1189](https://github.com/OpenXiangShan/NEMU/pull/1189)、[NEMU #1197](https://github.com/OpenXiangShan/NEMU/pull/1197)、[NEMU #1200](https://github.com/OpenXiangShan/NEMU/pull/1200)）

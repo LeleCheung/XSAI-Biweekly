@@ -53,7 +53,7 @@
 Biweekly 108 的 [汇总 PR #253](https://github.com/OpenXiangShan/XiangShan-doc/pull/253) 表明，常规协作方式是由总编辑创建汇总分支和 PR，各组负责人直接向该汇总分支提交各自的中英文段落。
 
 1. 当前总编辑从 `master` 创建 `biweekly-{num}` 汇总分支，并向 `master` 创建汇总 PR。
-2. XSAI 负责人在该分支上提交中英文 XSAI 段落，建议单独使用 `biweekly({num}): XSAI` 作为提交信息。Biweekly 108 的 XSAI 提交仅修改了对应的中文和英文双周报文件。
+2. XSAI 负责人在该分支上提交中英文 XSAI 段落，提交信息统一使用 `biweekly({num}): XSAI`，例如 `biweekly(111): XSAI`。Biweekly 108 的 XSAI 提交仅修改了对应的中文和英文双周报文件。
 3. 推送到汇总分支需要对 `OpenXiangShan/XiangShan-doc` 的写权限。没有权限时，不向 `master` 直接提交；可请管理员授予权限，或从个人 fork 向汇总分支创建 PR，再由总编辑合入。
 4. 总编辑负责汇总其他组提交、处理整体修改并合并最终 PR。
 

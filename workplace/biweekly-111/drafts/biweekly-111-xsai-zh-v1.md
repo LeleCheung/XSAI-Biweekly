@@ -3,8 +3,8 @@
 - RTL 新特性
   - 为 CUTE 访存请求传递矩阵预取描述信息（[CUTE #39](https://github.com/OpenXiangShan/CUTE/pull/39)）
 - Bug 修复
-  - 同步昆明湖 V2 的向量异常、地址触发器和 DRAMSim3 适配修复（[XSAI #123](https://github.com/OpenXiangShan/XSAI/pull/123)）
-  - 同步昆明湖 V2 的计数器溢出和 XSPDB 适配修复（[XSAI #129](https://github.com/OpenXiangShan/XSAI/pull/129)）
+  - 同步昆明湖 V2 的 bug-fix（[XSAI #123](https://github.com/OpenXiangShan/XSAI/pull/123)）
+  - 同步昆明湖 V2 的 bug-fix（[XSAI #129](https://github.com/OpenXiangShan/XSAI/pull/129)）
   - 修复预取 RequestBuffer 活锁（[XSAI #126](https://github.com/OpenXiangShan/XSAI/pull/126)、[XSAICache #8](https://github.com/OpenXiangShan/XSAICache/pull/8)）
 - 代码质量
   - 更新 nightly 回归 checkpoint 池并固定 matrix jobs 使用 node runner（[XSAI #120](https://github.com/OpenXiangShan/XSAI/pull/120)、[XSAI #122](https://github.com/OpenXiangShan/XSAI/pull/122)）

@@ -2,7 +2,7 @@
 
 本文件是双周报 PR 初筛所用的当前 GitHub 账号与语雀个人周报映射。成员归属由 XSAI 负责人确认；GitHub 历史 PR 或语雀搜索结果不能替代该确认。
 
-最后确认：2026-08-31。
+最后确认：2026-09-28。
 
 | GitHub 账号 | 成员 | 语雀个人周报 |
 | --- | --- | --- |
@@ -12,6 +12,9 @@
 | `Gs-ygc` | 2025-乐国春 | [2025-乐国春](https://bosc.yuque.com/up3wk0/twwy86/zsdlyky6gsqcki51) |
 | `Ivyfeather` | 2021-陈熙 | [2021-陈熙](https://bosc.yuque.com/up3wk0/twwy86/rthttaoitdoq35od) |
 | `zykucas` | 2026-张钰堃 | [2026-张钰堃](https://bosc.yuque.com/up3wk0/twwy86/ao1glf88i6qspe9l) |
+| `wakafa1` | 王凯帆 | [王凯帆](https://bosc.yuque.com/up3wk0/twwy86/nc8tg448d2o5xt3h) |
+
+2026-09-28：负责人确认 `wakafa1` 为王凯帆，纳入本期及后续筛选；不因新增成员自动补报往期 PR。其语雀当级文档本次读取为空，不能作为具体成果的佐证。
 
 ## 使用规则
 

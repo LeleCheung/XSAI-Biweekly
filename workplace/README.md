@@ -4,7 +4,7 @@
 
 ## 目录
 
-- [`biweekly-112/`](biweekly-112/): 112 期中文 v1 与初步审计（全量 PR 扫描待补齐）。
+- [`biweekly-112/`](biweekly-112/): 112 期中文 v2 与 09-28 复查记录（含新确认成员王凯帆的贡献）。
 - [`biweekly-111/`](biweekly-111/): 111 期审计和中英文供稿。
 - [`biweekly-110/`](biweekly-110/)
   - [`audit/`](biweekly-110/audit/): 110 期 PR 候选与审计记录。
@@ -17,8 +17,8 @@
 
 ## 当前入口
 
-- [112 中文 v1](biweekly-112/drafts/biweekly-112-xsai-zh-v1.md)
-- [112 审计与待复查事项](biweekly-112/audit/biweekly-112-pr-inventory-2026-09-24.md)
+- [112 中文 v2](biweekly-112/drafts/biweekly-112-xsai-zh-v2.md)
+- [112 最新复查与待确认事项](biweekly-112/audit/biweekly-112-pr-rescan-2026-09-28.md)
 - [110 PR 候选清单](biweekly-110/audit/biweekly-110-pr-inventory-2026-08-31.md)
 - [109 发布归档](biweekly-109/published.md)
 - [XSAI 双周报供稿工作流](reference/writing/xsai-biweekly-workflow.md)

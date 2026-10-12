@@ -17,6 +17,9 @@
 
 ## 当前入口
 
+- [113 中文 v2](biweekly-113/drafts/biweekly-113-xsai-zh-v2.md)
+- [113 个人周报核对与 PR 复查](biweekly-113/audit/biweekly-113-weekly-crosscheck-2026-10-12.md)
+
 - [112 中文 v2](biweekly-112/drafts/biweekly-112-xsai-zh-v2.md)
 - [112 最新复查与待确认事项](biweekly-112/audit/biweekly-112-pr-rescan-2026-09-28.md)
 - [110 PR 候选清单](biweekly-110/audit/biweekly-110-pr-inventory-2026-08-31.md)
